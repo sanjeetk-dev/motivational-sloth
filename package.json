@@ -1,6 +1,6 @@
 {
   "name": "motivational-sloth",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A fun package that provides hilarious motivational quotes from a sloth.",
   "main": "dist/bundle.js",
   "scripts": {
