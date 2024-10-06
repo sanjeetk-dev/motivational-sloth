@@ -7,9 +7,9 @@ module.exports = {
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
-    library: 'MotivationalSloth',
-    libraryTarget: 'umd',
+    libraryTarget: 'commonjs2', // Important for Node.js compatibility
   },
+  target: 'node',
   resolve: {
     extensions: ['.js'],
   },
